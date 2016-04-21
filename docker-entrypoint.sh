@@ -7,4 +7,4 @@ if [ "${1:0:1}" = '-' ]; then
 	set -- memcached "$@"
 fi
 
-exec "$@"
+exec "$@ -vvv"
